@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251 256" width="251" height="256">
+	<title>Стрелка оранжевая</title>
+	<style>
+		.s0 { fill: none;stroke: #ff9500;stroke-miterlimit:10;stroke-width: 14 } 
+		.s1 { fill: none;stroke: #ff9500;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 14 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m127 246c-61.9 0-112-52.3-112-117 0-64.7 50.1-117 112-117 61.9 0 112 52.3 112 117 0 64.7-50.1 117-112 117z"/>
+			<path fill-rule="evenodd" class="s1" d="m87 129h71"/>
+			<path fill-rule="evenodd" class="s1" d="m127 93l30.9 35.8"/>
+			<path fill-rule="evenodd" class="s1" d="m128 165.8l30.9-35.8"/>
+		</g>
+	</g>
+</svg>

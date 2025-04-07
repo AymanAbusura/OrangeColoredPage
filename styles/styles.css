@@ -1,0 +1,2020 @@
+.jura-demibold {
+    font-weight: 600!important;
+}
+
+.jura-light {
+    font-weight: 300!important;
+}
+
+.jura-regular {
+    font-weight: 400!important;
+}
+
+.kanit-regular {
+    font-family: 'Kanit', sans-serif!important;
+    font-weight: 400!important;
+}
+
+.different { color: #FF9500!important; }
+
+.near__text { display: inline-block!important; }
+
+.uppercase { text-transform: uppercase; }
+
+.no-scroll {
+    height: 100vh;
+    padding-right: 0 !important;
+}
+
+.desktop_mobile_shown { display: none; }
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+/*    height: 100vh;*/
+/*    overflow: hidden;*/
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    background: #000000d6;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 30px;
+    /*padding: 0px 20px 0px 20px;
+    border-radius: 30px;*/
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-btn {
+	width: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #00d0e0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.desktop-nav, .desktop { display: flex; }
+
+.mobile-menu { display: none; }
+
+.home__content__logo {
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.description__text {
+	width: 75%;
+	color: #d8d8d8;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	justify-self: center;
+    padding-top: 20px;
+}
+
+.uppercase { text-transform: uppercase; }
+
+.home__body__div {
+	display: flex;
+	justify-content: center;
+    padding-top: 30px;
+}
+
+.cta-button {
+	width: 200px;
+    background: #FF9500;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.home__content {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.home__body__next__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.right-box {
+    width: 20%;
+    color: #fff;
+}
+
+.right-box p {
+    font-size: 20px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #FF9500;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.left-box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left-box-content span, .left-box-content-2 span {
+    color: #fff;
+}
+
+.left-box-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left-box-content-avarage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.white_star {
+    width: 30px;
+    height: 30px;
+}
+
+.full_star {
+    width: 20px;
+    height: 45px;
+}
+
+.registration {
+    background: url("../assets/registration.svg") no-repeat center center;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 600px;
+    height: auto;
+}
+
+.form__bg-mobile {
+	padding: 20px 40px 20px 22px;
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+}
+
+.form__info ul { background: transparent!important; }
+
+.form-group-btn { padding: 10px; }
+
+.form-group-btn {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.form__info li {
+	color: #fff!important;
+}
+
+.line {
+    background:url("../assets/line.webp");
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 135px;
+    position: relative;
+    z-index: 2;
+    top: 85px;
+}
+
+/* About */
+.container-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    background: #1a120d;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.stats-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.stats-description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.progress-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.progress-bar {
+    background: #444;
+    border-radius: 10px;
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: #FF9500;
+    border-radius: 10px;
+}
+
+.progress-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #aaa;
+    min-width: 30px;
+    text-align: right;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.stats h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.stats span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.cta-button-about {
+    background: transparent;
+    border: 1px solid #FF9500;
+}
+
+.cta-button-about:hover {
+    background: #FF9500;
+}
+
+.title-1 {
+    text-align: left;
+}
+
+.about-left-box {
+    border: none;
+    background: #1c1302;
+    margin-top: 50px;
+}
+
+.home__body__div1 {
+    padding-top: 20px;
+}
+
+.about_home__body__div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cta-button-about {
+    border: 1px solid #FF9500;
+}
+
+.trading-card {
+    position: relative;
+    width: 340px;
+    aspect-ratio: 3 / 4;
+    border-radius: 16px;
+}
+
+.trading-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #FF9500;
+    border-radius: 20px;
+    z-index: 1;
+    transform: translate(-25px, -12px);
+    top: 40%;
+}
+
+.trading-card-front {
+    position: relative;
+    width: 94%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #0a0a0a;
+    display: block;
+    top: 45%;
+}
+
+.block__row {
+	position: relative;
+    justify-content: space-around;
+}
+.block__img, .block__col {
+	position: relative;
+	z-index: 2;
+}
+
+.block__col {
+    border-radius: 50px;
+    background: #170f02;
+    padding: 30px;
+}
+
+.block__title-2 {
+	font-size: 20px;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.block__description {
+	max-width: 70%;
+	position: relative;
+    bottom: 9rem;
+    left: 3rem;
+}
+
+.block__description p {
+	color: #fff;
+	font-size: 15px;
+}
+
+.block__description__btn {
+	text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-border {
+    border: 1px solid #666;
+    border-radius: 50px;
+    padding: 3px 5px;
+    width: 100%;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    border-radius: 1px;
+    padding: 0 20px;
+    height: 40px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    cursor: pointer;
+    color: #000;
+    background: #00d0e0;
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn__label {
+	border-radius: 50px!important;
+	width: auto!important;
+}
+
+.btn__label:hover {
+	width: 100%!important;
+	justify-content: center;
+}
+
+.flash_why_we {
+	background: url("../assets/flash.webp") center center / cover no-repeat;
+	position: absolute;
+    width: 60%;
+    height: 100%;
+    z-index: 1;
+    bottom: 22%;
+}
+
+/* Why Trade with NetherexPro? */
+.left-box__block { height: 50%; }
+
+.video-section-2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-video-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.sizes {
+    font-size: 12px;
+}
+
+.centered_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center_div {
+    align-self: center;
+}
+
+.left-box-content__details {
+    gap: 20px;
+}
+
+.space {
+	padding-top: 5%;
+}
+
+.container__trading {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	gap: 100px;
+    padding-top: 150px;
+/*    height: 100%;*/
+}
+
+.block__img__trading {
+	width: 50%;
+	display: flex;
+    align-items: flex-end;
+}
+
+.rocket {
+	border: 1px solid #666;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container__trading__description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+    height: 50%;
+}
+
+.container__trading__description p {
+	color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    width: 90%;
+}
+
+.trading__block__title {
+	font-size: 50px;
+    line-height: 1;
+}
+
+.trading_rocket {
+	display: flex;
+    align-items: flex-end;
+    width: 15%;
+}
+
+.container__trading__details {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.coin { width: 30%; }
+
+.numbers {
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.numbers span { font-size: 20px; }
+
+.number__info {
+	color: #fff;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.container__trading__details__info button { margin-top: 20px; }
+
+/* How Begin */
+.container-steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left, .right {
+    padding: 30px;
+    border: 1px solid #FF9500;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    width: 500px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FF9500;
+    border-radius: 30px;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.step:hover {
+    background-color: rgba(255, 165, 0, 0.05);
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: #FF9500;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.step-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.step-paragraph {
+    max-height: 0;
+    overflow: hidden;
+    color: #ccc;
+    font-size: 14px;
+    margin-left: 50px;
+    line-height: 1.5;
+    transition: max-height 0.3s ease;
+}
+
+.step.open .step-paragraph {
+    max-height: 200px;
+}
+
+.paragraph-box p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.right {
+    background: linear-gradient(135deg, #1e1e1e, #0c0c0c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 322px;
+    flex-direction: column;
+    background-image: url('../assets/electric.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 0, 0.73);
+    z-index: 0;
+}
+
+.right::after {
+    content: "FAST AND CONVENIENT";
+    position: absolute;
+    bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+}
+
+.secure {
+    width: 50px; height: 50px; position: absolute; bottom: 60%; z-index: 1;
+}
+
+.signal {
+    width: 40px; height: 40px; position: absolute; bottom: 28%; z-index: 1;
+}
+
+.arrow__1 {
+    width: 30px; height: 30px; position: absolute; bottom: 63%; right: 15%; z-index: 1; transform: rotate(140deg);
+}
+
+.arrow__2 {
+    width: 30px; height: 30px; position: absolute; bottom: 63%; left: 15%; z-index: 1; transform: rotate(40deg);
+}
+
+.arrow__3 {
+    width: 30px; height: 30px; position: absolute; bottom: 47%; right: 29%; z-index: 1; transform: rotate(140deg);
+}
+
+.arrow__4 {
+    width: 30px; height: 30px; position: absolute; bottom: 46%; left: 29%; z-index: 1; transform: rotate(40deg);
+}
+
+.arrow__line__1 {
+    background: #FF9500;
+    position: absolute;
+    width: 12%;
+    bottom: 59%;
+    left: 19%;
+    height: 1px;
+    transform: rotate(38deg);
+    z-index: 1;
+}
+.arrow__line__2 {
+    background: #FF9500;
+    position: absolute;
+    width: 12%;
+    bottom: 59%;
+    right: 19%;
+    height: 1px;
+    transform: rotate(140deg);
+    z-index: 1;
+}
+.arrow__line__3 {
+    background: #FF9500;
+    position: absolute;
+    width: 15%;
+    bottom: 41%;
+    right: 33%;
+    height: 1px;
+    transform: rotate(143deg);
+    z-index: 1;
+}
+.arrow__line__4 {
+    background: #FF9500;
+    position: absolute;
+    width: 15%;
+    bottom: 42%;
+    left: 33%;
+    height: 1px;
+    transform: rotate(33deg);
+    z-index: 1;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.arrow img {
+    width: 30px;
+    height: 30px;
+    align-items: flex-end;
+}
+
+.trading-card-experience {
+    position: relative;
+    width: 340px;
+    aspect-ratio: 3 / 4;
+    border-radius: 16px;
+}
+
+.trading-card-back-experience {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 86%;
+    height: 15%;
+    background-color: #FF9500;
+    border-radius: 16px;
+    z-index: 1;
+    transform: translate(-12px, -12px);
+    top: 10%;
+}
+
+.trading-card-front-experience {
+    position: relative;
+    width: 83%;
+    height: 60%;
+    object-fit: fill;
+    border-radius: 16px;
+    z-index: 2;
+    background-color: #0a0a0a;
+    display: block;
+    top: 12%;
+    left: 5%;
+}
+
+.experience__title {
+	text-transform: uppercase;
+	font-size: 36px;
+    text-align: right;
+}
+
+.experience__info {
+	text-align: right;
+	max-width: 600px;
+    font-size: 14px;
+}
+
+.experience__button {
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+.benefit__col span {
+	color: #fff;
+	font-size: 14px;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+.benefit-line {
+    position: absolute;
+    width: 110%;
+    height: 2px;
+    background-color: #666;
+    top: 50%;
+    right: 22%;
+    transform: translateX(50%);
+    z-index: -1;
+}
+
+.benefit__col:last-child .benefit-line {
+    width: 80%;
+    right: 37%;
+}
+
+/* Getting Started with NetherexPro */
+.title_started {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.title_info {
+	color: #fff;
+	font-size: 20px;
+}
+
+.steps__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.step__card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.step__card:nth-child(1) {
+    margin-right: -50px;
+    z-index: 4;
+}
+
+.step__card:nth-child(2) {
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.step__card:nth-child(3) {
+    margin-left: -50px;
+    z-index: 4;
+}
+
+.step__img {
+    width: auto;
+}
+
+.step__card img {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.step__card:hover img {
+    transform: scale(1.05);
+}
+
+/*.flash_step2 {
+    background: url("../assets/flash.webp") center center / contain no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: 3;
+    bottom: -12%;
+    pointer-events: none;
+}*/
+
+.flash_step2 {
+    background: url("../assets/flash.webp") center center / contain no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+     z-index: 3; 
+    bottom: -12%;
+    pointer-events: none;
+}
+
+.step__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00d0e0;
+    border: 2px solid #666;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.step__card:hover .step__number {
+    transform: scale(1.2);
+    border-color: #fff;
+}
+
+.step__description p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em;
+    transition: max-height 0.3s ease-out;
+    position: relative;
+    max-width: 100%;
+}
+
+.step__card:hover .step__description p {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    max-height: 100vh;
+}
+
+.step__description {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: left;
+    transition: all 0.4s ease-in-out;
+}
+
+.step__description h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.step__card:hover .step__description {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.header__number {
+    display: flex;
+    justify-content: flex-start;
+    transition: all 0.3s ease-in-out;
+}
+
+.activated {
+    justify-content: center;
+    transform: scale(1.2);
+}
+
+.shown {
+    display: none;
+}
+
+.step__card:hover .shown {
+    display: block;
+}
+
+.after_hovered {
+    text-align: left;
+    color: #ddd;
+    transition: all 0.3s ease-in-out;
+}
+
+.move-right {
+    display: flex!important;
+    justify-content: flex-end!important;
+    margin-top: 10px;
+}
+
+.step_line {
+	background: url("../assets/step_line.svg");
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 140px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Investing in Bitcoin? */
+.investing_section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding-block: 20px 0!important;
+}
+
+.container__investing {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1320px;
+    padding-inline: 10px;
+}
+
+.investing_title { text-transform: uppercase; }
+
+.btn-border__investing {
+	margin-top: 0px!important;
+	max-width: 20%!important;
+}
+
+.bg-graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top: 100px;
+}
+
+.slide.active { opacity: 1; }
+
+.text-content {
+	max-width: 40%;
+    text-align: left;
+}
+
+.text-content h2, .text-content p {
+	color: #fff;
+}
+
+.text-content h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text-content p { margin-top: 20px; }
+
+.pagination {
+	position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.dot {
+	width: 30px;
+    height: 5px;
+    background: #666;
+    cursor: pointer;
+    transition: width 0.3s, background-color 0.3s;
+}
+   
+.dot.active:first-child { width: 70px; }
+
+.dot.active:nth-child(2) { width: 50px; }
+
+.dot.active:nth-child(3) { width: 40px; }
+
+.dot.active { background: #00d0e0; }
+
+/* FAQ */
+.faq-content {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  max-width: 1320px;
+  align-items: stretch;
+}
+
+.faq-column {
+  display: grid;
+  gap: 20px;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.faq-title {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.faq-title span {
+  display: block;
+  color: #00d0e0;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3,
+.faq-item p {
+  color: #fff;
+  text-align: right;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.faq-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.faq__text {
+  text-align: left !important;
+}
+
+.faq-image {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex: 1;
+  height: 400px;
+}
+
+.faq-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ANIMATION STATES */
+.faq-animate-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.faq-animate-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.faq-animate {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.faq-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.more-text { display: none; }
+
+.faq_btn {
+    display: block;
+    text-align: center;
+    color: #00d0e0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.faq_contact_btn {
+    margin-top: 0;
+    position: relative;
+    bottom: 15%;
+    left: 50%;
+    padding: 5px 24px;
+    text-transform: uppercase;
+}
+
+.faq_contact_description h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.faq_contact_description p {
+    color: #fff;
+    font-size: 14px;
+    max-width: 80%;
+}
+
+.faq_flash_line {
+	background: url("../assets/faq_line.webp");
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	max-width: 100px;
+	flex: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.faq_flash_line_mobile { display: none; }
+
+.faq_line {
+    background:url("../assets/line.webp");
+	background-size:cover;
+	background-position:top center;
+	background-repeat:no-repeat;
+	width: 100%;
+    min-height: 86px;
+    position: relative;
+    z-index: 2;
+    bottom: -2rem;
+}
+
+.flash_faq {
+    bottom: 24%;
+    left: 0;
+    z-index: -1;
+    width: 50%;
+}
+
+.glow-line {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #ffffff66, transparent);
+    box-shadow: 0 0 8px #ffffff33;
+    margin: 40px 0;
+}
+
+/* FOOTER */
+.flex-bl-copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-nav {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+footer .nav-footer {
+	justify-content: flex-start;
+	padding: 0;
+}
+
+footer .nav-footer .language {
+    margin-left: 0;
+    border-radius: 1px;
+    background: #00d0e0;
+    border: none;
+}
+
+footer .nav-footer .language .subitem a { padding: 6px 0px; }
+
+footer .menu__link {
+	color: #000!important;
+	font-weight: 400;
+}
+
+footer .menu__link:hover { color: #000; }
+
+footer .nav-footer .language>a::after{
+	content:"";
+	width:12px;
+	height:12px;
+	min-width:0;
+	background:url("../assets/direction-down-black.svg")
+}
+
+.nav1 {
+    gap: 90px;
+    border: none;
+}
+
+.nav1 .nav__link {
+	text-transform: uppercase;
+}
+
+.nav1 .nav__link:hover {
+	text-decoration: none!important;
+	color: #FF9500;
+}
+
+/* LOGIN PAGE */
+.login_color { color: #fff!important; }
+
+.login_form__bg {
+	position: unset!important;
+	display: flex;
+    justify-content: center;
+}
+
+.login_form__div {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 500px;
+}
+
+.login_form__div input {
+	border: 1px solid #666;
+}
+
+/* CONTACT PAGE */
+.contact_us_title {
+    font-size: 40px !important;
+}
+
+.contact_us_title span {
+    display: inline-block!important;
+}
+
+.home__content__image__contact__us {
+    position: absolute;
+    height: 100vh!important;
+}
+
+.home__hold__contact {
+	flex-direction: column!important;
+	gap: 0!important;
+	align-items: center!important;
+}
+
+.contact__description { color: #fff!important; }
+
+.contact_form__bg {
+	margin-top: 0!important;
+	position: absolute !important;
+	width: 90%;
+	bottom: 15%;
+}
+
+.contact_form__bg textarea {
+	background: #000;
+	border: none;
+	height: 150px;
+	color: #fff;
+}
+
+.btn-contact {
+	margin-top: 100px;
+}
+
+.contact_line { bottom: 7rem; }
+
+.contact_footer-top { padding-block: 0px!important; }
+
+.contact_margin {
+	margin-bottom: 20px;
+}
+
+
+/* ABOUT PAGE */
+.about_us_title {
+    font-size: 50px!important;
+}
+
+.about_us_title span, .description__h2 span {
+    display: inline-block!important;
+}
+
+.contact__text {
+    max-width: 70%;
+    justify-self: center;
+    font-size: 25px!important;
+}
+
+.flash_about__us {
+    background: url("../assets/flash.webp") center center / contain no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: -1; 
+    bottom: 12%;
+    left: 20%;
+    pointer-events: none;
+}
+
+.block__description_h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.txt_about {
+    text-align: center!important;
+}
+
+.contact__text1 {
+    max-width: 50%;
+    justify-self: center;
+    text-align: left!important;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.btn_join {
+    margin: 0!important;
+}
+
+.join__button {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.btn-border__about_us {
+    width: auto;
+    max-width: 25%;
+}
+
+.holder_about { padding-block: 0!important; }
+
+.about_us_block__description { 
+    line-height: 1.2;
+    bottom: 8rem;
+}
+
+@media (width: 1024px) {
+    .line { top: 135px }
+	.header { padding: 15px 20px; }
+	.form__bg-mobile { bottom: 1rem; }
+	.form-group-btn { padding-bottom: 0; }
+	.form__div { padding-bottom: 40px; }
+	.form__bg ul li:not(:last-child) { margin-bottom: 5px; }
+	.home__hold { gap: 40px; }
+	.home__content__logo { margin-bottom: 0px; }
+	.home__content { bottom: 4rem; }
+	.bg-video {
+		width: 1024px;
+    	height: 844px;
+	}
+
+/* Why Trade with NetherexPro? */
+	.container__trading { gap: 10px; }
+	.block__img__trading { width: 100%; }
+	.container__trading__description { justify-content: flex-end; }
+	.trading_rocket { width: 30%; }
+	.coin { width: 50%; }
+	.block__title-2 { font-size: 30px; }
+	.number__info { font-size: 8px; }
+
+/* How does NetherexPro improve your trading experience? */
+	.benefit-line {
+		width: 104%;
+		right: 18%;
+	}
+
+	.benefit__col:last-child .benefit-line {
+	    width: 73%;
+        right: 34%;
+	}
+
+/* Getting Started with NetherexPro */
+	.flash_step2 {
+	    background-size: cover;
+	    height: 300px;
+	}
+	.step__description h1 {
+		font-size: 18px;
+	}
+	.step__description {
+		max-width: 75%;
+	}
+
+/* Investing in Bitcoin? */
+	.btn-border__investing {
+		margin-top: 0px;
+		max-width: 30%;
+	}
+
+    .form__bg-mobile { bottom: 2rem; }
+
+}
+
+@media (max-width: 768px) {
+    .line__circled { width: 82px; }
+    .footer p { text-align: center; font-size: 12px;}
+    .nav1 { gap: 30px; }
+    .faq-image img { max-width: 200px }
+    .container-steps { flex-direction: column; align-items: center; gap: 20px; }
+    .home__text { font-size: 35px; }
+    .home__body__next__box { flex-direction: column; gap: 20px; padding-top: 50px; }
+/*    .line { top: 120px; }*/
+    .trading-card { display: none!important; }
+    .right-box { width: 100%; }
+    .home__body { padding-top: 50px; }
+    .desktop_mobile_shown { display: block; }
+    .logo { margin-right: auto; }
+	.desktop-nav, .desktop, .registration, .home__content__image, .footer-nav { display: none!important; }
+    .mobile-menu { 
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+    }
+    #menu { 
+        display: none; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100vh; 
+        background: rgba(0, 0, 0, 0.8); 
+        text-align: center; 
+        padding-top: 100px; 
+    }
+    #menu.overlay { 
+        display: block; 
+        z-index: 49;
+    }
+    #menu ul {
+        padding: 0;
+    }
+    #menu li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #menu a {
+        color: #fff;
+        display: block;
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    .contact-btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    #burger-menu { 
+        cursor: pointer; 
+        height: 27px; 
+        width: 27px; 
+        position: relative; 
+        z-index: 50; 
+    }
+    #burger-menu span, #burger-menu span:before, #burger-menu span:after {
+        background: #fff; 
+        display: block; 
+        height: 2px; 
+        position: absolute; 
+        transition: 0.3s ease-in-out;
+    }
+    #burger-menu span:before, #burger-menu span:after { content: ''; }
+    #burger-menu span:before { 
+        left: 0; 
+        top: -10px; 
+        width: 27px; 
+    }
+    #burger-menu span { 
+        right: 0; 
+        top: 13px; 
+        width: 27px; 
+    }
+    #burger-menu span:after { 
+        left: 0; 
+        top: 10px; 
+        width: 27px; 
+    }
+    #burger-menu.close span:before { 
+        top: 0; 
+        transform: rotate(90deg); 
+        width: 27px; 
+    }
+    #burger-menu.close span { 
+        transform: rotate(-45deg); 
+        top: 13px; 
+        width: 27px; 
+    }
+    #burger-menu.close span:after { 
+        top: 0; 
+        left: 0; 
+        transform: rotate(90deg); 
+        opacity: 0; 
+        width: 0; 
+    }
+    .bg-video { width: 100%; height: 100% }
+    .home__hold { padding-bottom: 0px; }
+    .contact-btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background: transparent;
+        color: #fff;
+    }
+    .form__bg-mobile {
+    	padding: 20px;
+    	position: initial;
+    	display: block;
+    	border: 1px solid #666;
+    }
+    input { border: 1px solid #d5d9ed; }
+    .home__content { position: initial; }
+    .description__text { width: 100%; }
+    .header { padding: 15px 10px; }
+    .bg-video {
+    	width: 100%;
+    	height: 967px;
+    }
+    .line { bottom: 0; }
+
+/* WHY WE? */
+	.space { padding-block: 0px!important; }
+    .block__row { flex-direction: column; }
+    .spacing { padding-block: 10px 0!important; }
+    .btn-border { 
+    	margin-top: 0px; 
+    	margin: 0;
+    	margin-bottom: 20px;
+    }
+    .block__img {
+	    width: 100%;
+	    max-width: 500px;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.block__description { left: 0; }
+	.flash_why_we { 
+		top: 20%;
+        left: 40%;
+	}
+
+/* Why Trade with NetherexPro? */
+	.container__trading { gap: 10px; }
+	.block__img__trading { align-items: normal; width: 70%; }
+	.trading_rocket { width: auto; }
+	.container__trading__description { width: 70%; }
+	.coin { width: 50%; }
+	.rocket { padding: 10px; }
+
+/* How does NetherexPro improve your trading experience? */
+	.experience__title { font-size: 30px; }
+	.experience__info { max-width: 100%; }
+	.experience__button { margin: 0 auto; margin-top: 20px; }
+	.benefit__col__mobile {
+		flex-direction: column;
+		align-items: center;
+	}
+	.benefit-line { display: none; }
+	.benefit__col span { text-align: center; }
+
+/* Getting Started with NetherexPro */
+	.steps__cards {
+		flex-direction: column;
+		margin-top: 50px;
+	}
+	.step__card:hover .step__description {
+	    left: 50%;
+	}
+	.step__description {
+		left: 50%;
+	}
+
+/* Investing in Bitcoin? */
+	.btn-border__investing {
+		margin-top: 0px;
+		max-width: 40%;
+	}
+
+	.slider { height: 80%; }
+	.slide { 
+		justify-content: center;
+		margin-top: 10px;
+	 }
+	.text-content { max-width: 100%; }
+
+/* FAQ */
+	.faq-container { 
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	.faq-image { 
+		width: 100%;
+    	max-width: 500px;
+	}
+	.faq_contact_btn {
+		position: absolute;
+		bottom: 25%;
+		left: 55%;
+	}
+	.faq_contact_description p { 
+		text-align: center;
+		max-width: 100%;
+	}
+	.faq_flash_line { display: none; }
+	.faq_flash_line_mobile {
+		display: block;
+		background: url("../assets/faq_line_mobile.webp");
+	    background-size: contain;
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    height: 100px;
+	    position: relative;
+	    z-index: 2;
+	}
+	.faq-content {
+		width: 100%;
+    	max-width: 100%;
+	}
+	.faq-title span { display: inline-block; }
+
+/* CONTACT US */
+    .contact_form__bg { position: unset!important; }
+
+    textarea {
+        border: 1px solid #d5d9ed!important;
+    }
+
+    textarea:focus {
+        border: 3px solid #007bff;
+        outline: none;
+    }
+
+    .home__form__contact_us { 
+        max-width: 100%!important;
+        justify-items: center;
+    }
+
+    .contact_line { 
+        top: 42px!important;
+        bottom: 0;
+    }
+
+    .footer_contact_mobile { margin-top: 100px; }
+
+/* ABOUT PAGE */
+    .about_us_mobile {
+        flex-direction: column;
+    }
+
+    .flash_about__us {
+        display: none;
+    }
+
+    .holder_about {
+        padding-block: 100px 0!important;
+    }
+
+    .btn-border__about_us { max-width: 50%; }
+
+    .contact__text, .contact__text1 { max-width: 100%; }
+
+    .contact__text1 { margin-top: 50px; }
+
+    .join__button { margin-top: 100px; }
+
+}
+
+@media (max-width: 425px) {
+    .arrow__line__1 { width: 13%; }
+    .arrow__line__3 { width: 17%; }
+
+
+    .trading-card-experience { display: none; }
+    .holder__body, .experience__title, .experience__info { text-align: center; }
+    .left, .right { width: 400px; }
+    .faq-content { grid-template-columns: auto; }
+    .faq-image { height: 100%; justify-content: center; }
+    .nav1 { gap: 20px }
+
+	.bg-video { height: 991px; }
+	.block__description { bottom: 7.5rem; }
+	.block__description p { font-size: 13px; }
+	.block__description__btn { font-size: 13px; }
+	.btn-border { max-width: 50%; }
+	.flash_why_we { 
+		top: 20%;
+        left: 0;
+        width: 100%;
+	}
+	.space { padding-block: 50px!important; }
+
+/* Why Trade with NetherexPro? */
+	.container__trading {
+	    flex-direction: column;
+	    align-items: center;
+	    text-align: center;
+        padding-top: 0px;
+	}
+	.container__trading__description { width: 100%; }
+	.container__trading__description p { width: 100%; text-align: left; }
+	.trading_rocket { display: none; }
+	.container__trading__details { width: 100%; align-items: center; }
+	.container__trading__details__info button { margin: 0 auto; margin-top: 20px; }
+
+/* Getting Started with NetherexPro */
+	.step__card:nth-child(1), .step__card:nth-child(3) { 
+		margin-right: 0; 
+		margin-left: 0; 
+	}
+	.step__img { margin: 0; }
+	.step__description { bottom: 2rem; }
+	.step_line { 
+		background-size: cover;
+		height: 80px; 
+	}
+
+/* Investing in Bitcoin? */
+	.btn-border__investing { max-width: 70%; }
+
+/* FAQ */
+	.faq-container { padding: 0; }
+	.faq_contact_btn { 
+	    bottom: 38%;
+        left: 30%;
+    }
+    .faq_contact_description h2 { text-align: center; }
+    .faq_flash_line_mobile { height: 50px; }
+
+    .btn-border__about_us { max-width: 70%; }
+    .about_us_block__description { 
+        line-height: 1.2;
+        bottom: 5.8rem!important;
+    }
+    .holder_about { padding-block: 0!important; }
+
+    .contact_line { top: 80px !important; }
+}
+
+@media (max-width: 375px) {
+    .arrow__line__1 { width: 14%; }
+    .arrow__line__2 { width: 13%; }
+    .arrow__line__3 { width: 19%; }
+
+    .buttons-container { width: 300px; }
+    .block__title-2 { text-align: center; }
+    .left, .right { width: 350px }
+    .nav1 { gap: 4px; }
+
+	.bg-video { height: 1020px; }
+	.btn-border { max-width: 60%; }
+	.block__description { bottom: 6.8rem;  }
+	.block__description p { font-size: 12px; }
+	.block__description__btn { font-size: 12px; }
+	.flash_why_we { width: 100%!important; }
+	.block__title-2 { font-size: 19px; text-align: left; }
+	.flash_step2 {
+		background-size: cover;
+		height: 100%;
+	}
+	.step__description { bottom: 1.5rem; }
+	.step__description h1 { font-size: 18px; }
+	.step_line { height: 60px; }
+	.btn-border__investing { max-width: 80%; }
+
+    .btn-border__about_us { max-width: 80%; }
+    .container__experience__about_us_mobile { height: 100%; }
+    .contact_line { top: 110px!important; }
+    .footer_contact_mobile { margin-top: 120px!important; }
+}
+
+@media (max-width: 320px) {
+    .arrow__line__1 { transform: rotate(48deg); width: 14%; }
+    .arrow__line__4 { transform: rotate(47deg); width: 15%; }
+    .arrow__line__2 { transform: rotate(134deg); width: 14%; }
+    .arrow__line__3 { transform: rotate(134deg); }
+    .stars { gap: 5px; }
+    .block__title-2 { text-align: center; }
+    .left, .right { width: 300px; }
+    .step-paragraph { font-size: 13px; }
+
+
+	.bg-video { height: 1045px; }
+	.header { padding: 8px 5px; }
+	.block__description { bottom: 5.5rem;  }
+	.block__description p { font-size: 10px; }
+	.block__description__btn { font-size: 10px; }
+	.flash_why_we { width: 100%!important; }
+	.title_started { font-size: 21px; }
+	.step__description { bottom: 1.5rem; }
+	.step__description h1 { font-size: 15px; }
+	.step_line { height: 50px; }
+	.faq_contact_btn { 
+		bottom: 45%;
+        left: 25%;
+    }
+    .nav1 { flex-direction: column; }
+    .about_us_block__description { 
+        max-width: 75%;
+        bottom: 4.8rem!important;
+    }
+    .btn-border__about_us { max-width: 100%; }
+    .contact_line { top: 135px!important; }
+    .footer_contact_mobile { margin-top: 120px!important; }
+}

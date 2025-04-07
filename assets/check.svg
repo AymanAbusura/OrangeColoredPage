@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 233" width="230" height="233">
+	<title>Ор шарик с галкой</title>
+	<style>
+		.s0 { fill: #ff9500 } 
+		.s1 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 11 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m115 226c-60.3 0-109-48.7-109-109 0-60.3 48.7-109 109-109 60.3 0 109 48.7 109 109 0 60.3-48.7 109-109 109z"/>
+			<path fill-rule="evenodd" class="s1" d="m66.5 124.5l33.5 30.5"/>
+			<path fill-rule="evenodd" class="s1" d="m166.5 78.5l-65.5 76.9"/>
+		</g>
+	</g>
+</svg>
