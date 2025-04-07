@@ -133,7 +133,7 @@ section.p0{
 	text-align: left;
 }
 .accent{
-	color:#fd8704
+	color: #FF9500;
 }
 .accent-1{
 	color:#01c9ee
@@ -358,8 +358,14 @@ p+p{
 	max-width:450px;
 	margin-inline:auto
 }
-.form{
-	width:100%
+.form {
+/*	background: #00000094;*/
+	border-radius: 30px;
+    padding: 20px;
+    max-width: 500px;
+	width:100%;
+/*	border: 1px solid #FF9500;*/
+    padding: 20px;
 }
 .form .btn,.form__bg,.form__bg ul{
 	margin-top:20px
@@ -384,9 +390,10 @@ p+p{
 }
 .form__bg ul li:not(:last-child){
 	margin-bottom: 8px;
-	color: #666;
+	color: #fff;
 }
 .form__bg ul li a{
+	color: #FF9500;
 	display:inline-block;
 	font-weight:700;
 	text-decoration:underline;
@@ -436,12 +443,13 @@ input{
 	font-size:18px
 }
 textarea{
-	border:1px solid #d5d9ed;
-	border-radius:10px;
+	border:1px solid #FF9500;
+	border-radius:20px;
 	padding:13px 20px;
 	font-weight:500;
-	color:#666;
-	resize:vertical
+	color:#fff;
+	resize:vertical;
+	background: transparent;
 }
 .btn{
 	display:-webkit-box;
@@ -454,7 +462,7 @@ textarea{
 	-ms-flex-pack:center;
 	justify-content:center;
 	text-transform:uppercase;
-	border-radius:1px;
+	border-radius:50px;
 	padding:0 50px;
 	height:48px;
 	font-weight:600;
@@ -462,7 +470,7 @@ textarea{
 	text-align:center;
 	cursor:pointer;
 	color: #000;
-	background: #00d0e0;
+	background: #FF9500;
 	-webkit-transition:all .3s ease-in-out;
 	transition:all .3s ease-in-out
 }
@@ -921,7 +929,7 @@ textarea{
 .policy a, .terms a{
 	display: inline-block;
 	font-weight: 700;
-	color: #00d0e0;
+	color: #FF9500;
 }
 .policy p+.title-3,.terms p+.title-3{
 	padding-top:20px
@@ -1355,7 +1363,8 @@ table p+p{
 		color: #00d0e0;
 }
 	.form__bg ul li a:hover{
-		text-decoration:none
+		text-decoration: none;
+		color: #FF9500;
 }
 	/*.btn:hover{
 		background-color:transparent;
@@ -1386,13 +1395,14 @@ form {
 }
 input[type="text"],input[type="email"],input[type="tel"],button {
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 50px;
 	padding: 13px 20px;
 	font-size: 16px;
+	border: 1px solid #FF9500;
 	box-sizing: border-box;
 	background: #000;
 	color: #fff;
-/*	background: transparent;*/
+	background: transparent;
 }
 /*.error {
 	width: 100%;
@@ -1483,8 +1493,8 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
 	position: absolute;
 }
 .form__wrapper-loader.loader,.api-error.loader {
-	display: block;
-/*	display: none;*/
+/*	display: block;*/
+	display: none;
 }
 .iti--separate-dial-code.iti--show-flags .iti__selected-dial-code {
 	margin-left: 6px;

@@ -28,6 +28,36 @@
 
 .desktop_mobile_shown { display: none; }
 
+.shiny {
+    background: url('../assets/shiny.webp') center center / contain no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    bottom: 22%;
+    transform: rotate(268deg);
+}
+
+.shiny_centered {
+    background: url('../assets/shiny.webp') center center / contain no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 100%;
+    left: 40%;
+}
+
+.shiny_centered_original {
+    background: url('../assets/shiny.webp') center center / contain no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 370%;
+    left: 40%;
+}
+
 .bg-video {
     position: absolute;
     width: 100%;
@@ -512,7 +542,7 @@
     bottom: 22%;
 }
 
-/* Why Trade with NetherexPro? */
+/* Why Trade with ShaddersAgent? */
 .left-box__block { height: 50%; }
 
 .video-section-2 {
@@ -896,7 +926,7 @@
     right: 37%;
 }
 
-/* Getting Started with NetherexPro */
+/* Getting Started with ShaddersAgent */
 .title_started {
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -1420,17 +1450,22 @@ footer .nav-footer .language>a::after{
 }
 
 .login_form__div {
-	border: 1px solid #666;
-	border-radius: 5px;
+	border: 1px solid #FF9500;
+	border-radius: 30px;
 	padding: 20px;
 	max-width: 500px;
+    background: #00000094;
 }
 
 .login_form__div input {
-	border: 1px solid #666;
+	border: 1px solid #FF9500;
 }
 
 /* CONTACT PAGE */
+.form__contact {
+    border: 1px solid #FF9500; 
+    background: #00000094;
+}
 .contact_us_title {
     font-size: 40px !important;
 }
@@ -1478,8 +1513,113 @@ footer .nav-footer .language>a::after{
 	margin-bottom: 20px;
 }
 
-
 /* ABOUT PAGE */
+.line__circled__about {
+    width: 100px;
+}
+
+.about-section {
+  padding: 60px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.about-right {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.about-box {
+  background: #170f02;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.about-title {
+    color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #FF9500;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.info-box {
+  border: 1px solid #FF9500;
+  border-radius: 15px;
+  padding: 25px;
+  background: #0d0d0d;
+}
+
+.info-title {
+  color: #FF9500;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.info-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.image-wrapper {
+  position: relative;
+  padding-top: 30px;
+}
+
+.image-bg {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+  background: #ff8a1f;
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.about-image {
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  max-width: 100%;
+  display: block;
+}
+
+.container__trading__about {
+    padding-top: 0px;
+}
+.left-box-content__about { align-items: center; padding: 20px; }
+
 .about_us_title {
     font-size: 50px!important;
 }
@@ -1537,7 +1677,10 @@ footer .nav-footer .language>a::after{
     max-width: 25%;
 }
 
-.holder_about { padding-block: 0!important; }
+/*.holder_about { padding-top: 150px!important; }*/
+.holder__body__about { width: 100%!important; }
+.block__title-2__about { font-size: 20px!important; }
+.trading__block__title__about { font-size: 45px!important; }
 
 .about_us_block__description { 
     line-height: 1.2;
@@ -1559,7 +1702,7 @@ footer .nav-footer .language>a::after{
     	height: 844px;
 	}
 
-/* Why Trade with NetherexPro? */
+/* Why Trade with ShaddersAgent? */
 	.container__trading { gap: 10px; }
 	.block__img__trading { width: 100%; }
 	.container__trading__description { justify-content: flex-end; }
@@ -1568,7 +1711,7 @@ footer .nav-footer .language>a::after{
 	.block__title-2 { font-size: 30px; }
 	.number__info { font-size: 8px; }
 
-/* How does NetherexPro improve your trading experience? */
+/* How does ShaddersAgent improve your trading experience? */
 	.benefit-line {
 		width: 104%;
 		right: 18%;
@@ -1579,7 +1722,7 @@ footer .nav-footer .language>a::after{
         right: 34%;
 	}
 
-/* Getting Started with NetherexPro */
+/* Getting Started with ShaddersAgent */
 	.flash_step2 {
 	    background-size: cover;
 	    height: 300px;
@@ -1602,6 +1745,9 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 768px) {
+    .container__trading__description__about { width: 100%!important; }
+    .line__circled__about { display: none!important; }
+    .container__trading__about { flex-direction: column; }
     .line__circled { width: 82px; }
     .footer p { text-align: center; font-size: 12px;}
     .nav1 { gap: 30px; }
@@ -1615,7 +1761,7 @@ footer .nav-footer .language>a::after{
     .home__body { padding-top: 50px; }
     .desktop_mobile_shown { display: block; }
     .logo { margin-right: auto; }
-	.desktop-nav, .desktop, .registration, .home__content__image, .footer-nav { display: none!important; }
+	.desktop-nav, .desktop, .registration, .home__content__image, .footer-nav, .shiny, .shiny_centered, .shiny_centered_original { display: none!important; }
     .mobile-menu { 
         display: flex;
         align-items: center;
@@ -1753,7 +1899,7 @@ footer .nav-footer .language>a::after{
         left: 40%;
 	}
 
-/* Why Trade with NetherexPro? */
+/* Why Trade with ShaddersAgent? */
 	.container__trading { gap: 10px; }
 	.block__img__trading { align-items: normal; width: 70%; }
 	.trading_rocket { width: auto; }
@@ -1761,7 +1907,7 @@ footer .nav-footer .language>a::after{
 	.coin { width: 50%; }
 	.rocket { padding: 10px; }
 
-/* How does NetherexPro improve your trading experience? */
+/* How does ShaddersAgent improve your trading experience? */
 	.experience__title { font-size: 30px; }
 	.experience__info { max-width: 100%; }
 	.experience__button { margin: 0 auto; margin-top: 20px; }
@@ -1772,7 +1918,7 @@ footer .nav-footer .language>a::after{
 	.benefit-line { display: none; }
 	.benefit__col span { text-align: center; }
 
-/* Getting Started with NetherexPro */
+/* Getting Started with ShaddersAgent */
 	.steps__cards {
 		flex-direction: column;
 		margin-top: 50px;
@@ -1838,7 +1984,7 @@ footer .nav-footer .language>a::after{
     .contact_form__bg { position: unset!important; }
 
     textarea {
-        border: 1px solid #d5d9ed!important;
+        border: 1px solid #FF9500;
     }
 
     textarea:focus {
@@ -1882,6 +2028,8 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 425px) {
+    .buttons-container__about { flex-direction: column; }
+
     .arrow__line__1 { width: 13%; }
     .arrow__line__3 { width: 17%; }
 
@@ -1905,7 +2053,7 @@ footer .nav-footer .language>a::after{
 	}
 	.space { padding-block: 50px!important; }
 
-/* Why Trade with NetherexPro? */
+/* Why Trade with ShaddersAgent? */
 	.container__trading {
 	    flex-direction: column;
 	    align-items: center;
@@ -1918,7 +2066,7 @@ footer .nav-footer .language>a::after{
 	.container__trading__details { width: 100%; align-items: center; }
 	.container__trading__details__info button { margin: 0 auto; margin-top: 20px; }
 
-/* Getting Started with NetherexPro */
+/* Getting Started with ShaddersAgent */
 	.step__card:nth-child(1), .step__card:nth-child(3) { 
 		margin-right: 0; 
 		margin-left: 0; 
@@ -1953,6 +2101,9 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 375px) {
+    .buttons-container__about { align-items: center; }
+
+    .home__text { font-size: 30px; }
     .arrow__line__1 { width: 14%; }
     .arrow__line__2 { width: 13%; }
     .arrow__line__3 { width: 19%; }
@@ -1985,6 +2136,12 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 320px) {
+    .about-title { font-size: 24px; }
+    .about-box { width: 90%; }
+    .info-box { width: 90%; }
+    .left-box-content__about { padding: 0; }
+    .left-box__block__about { padding: 5px; }
+    .home__text { font-size: 20px; }
     .arrow__line__1 { transform: rotate(48deg); width: 14%; }
     .arrow__line__4 { transform: rotate(47deg); width: 15%; }
     .arrow__line__2 { transform: rotate(134deg); width: 14%; }

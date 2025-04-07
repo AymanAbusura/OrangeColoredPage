@@ -82,7 +82,7 @@
 .iti__divider {
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #fff;
 }
 .iti__country {
   display: flex;
@@ -91,14 +91,14 @@
   outline: none;
 }
 .iti__dial-code {
-  color: #999;
+  color: #fff;
 }
 .iti__country.iti__highlight {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .iti__flag-box, .iti__country-name {
   margin-right: 6px;
-  color: #666;
+  color: #fff;
 }
 [dir=rtl] .iti__flag-box, [dir=rtl] .iti__country-name {
   margin-right: 0;

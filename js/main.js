@@ -61,7 +61,7 @@ window.onload = function() {;
 
 
 	// замена домена
-	var domainName = "netherexpro.com";
+	var domainName = "shaddersagent.com";
 	var replaceableTextElements = document.querySelectorAll(".domain");
 	replaceableTextElements.forEach(function(element) {
 	    if (element.classList.contains("email")) {
