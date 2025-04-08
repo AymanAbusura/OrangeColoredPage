@@ -43,7 +43,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
     top: 100%;
     left: 40%;
 }
@@ -659,6 +659,8 @@
 
 /* How Begin */
 .container-steps {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -1617,6 +1619,8 @@ footer .nav-footer .language>a::after{
 
 .container__trading__about {
     padding-top: 0px;
+    position: relative;
+    z-index: 1;
 }
 .left-box-content__about { align-items: center; padding: 20px; }
 
@@ -1677,7 +1681,7 @@ footer .nav-footer .language>a::after{
     max-width: 25%;
 }
 
-/*.holder_about { padding-top: 150px!important; }*/
+.holder_about { position: relative; z-index: 1; }
 .holder__body__about { width: 100%!important; }
 .block__title-2__about { font-size: 20px!important; }
 .trading__block__title__about { font-size: 45px!important; }

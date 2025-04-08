@@ -647,6 +647,8 @@ textarea{
 .holder{
 	overflow:hidden;
 	padding:0;
+	position: relative;
+	z-index: 0;
 /*	background: #fd8704;*/
 }
 .holder__container,.holder__content{
